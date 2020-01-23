@@ -1,0 +1,31 @@
+.contact-inner {
+    padding: 40px 0;
+    display: flex;
+}
+
+.contact-item {
+    width: 50%;
+}
+
+.input-item-wrapper {
+    width: 100%;
+}
+
+.input-item-wrapper label {
+    display: block;
+    margin: 8px 0;
+}
+
+.input-item-wrapper input {
+    width: 100%;
+    padding: 10px 8px;
+}
+
+.input-item-wrapper textarea {
+    width: 100%;
+    padding: 10px 8px;
+}
+
+.input-item-wrapper button {
+    padding: 10px 8px;
+}

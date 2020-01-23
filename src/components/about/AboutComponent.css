@@ -1,0 +1,27 @@
+.about-wrapper p {
+    line-height: 22px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.about-wrapper h1 {
+    text-align: center;
+}
+
+.about-designations {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.designation {
+    text-align: center;
+    margin: 5px;
+    width: 22%
+}
+
+.designation img {
+    width: 100px;
+}

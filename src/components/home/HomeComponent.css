@@ -1,0 +1,59 @@
+.home-wrapper .home-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-wrapper .home-inner img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-wrapper .home-inner h1 {
+    margin-bottom: 3px;
+}
+
+.home-wrapper .home-inner h3 {
+    margin: 0;
+}
+
+.home-wrapper .home-inner p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.home-wrapper .home-inner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-wrapper .home-inner ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.home-wrapper .home-inner ul li a {
+    padding: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.home-wrapper .home-inner ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.home-wrapper .home-inner ul li a i {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}

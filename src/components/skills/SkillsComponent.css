@@ -1,0 +1,13 @@
+.skills {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    margin: 5px;
+    width: 22%;
+}
