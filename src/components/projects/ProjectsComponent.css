@@ -1,0 +1,30 @@
+.projects-wrapper h1 {
+    text-align: center;
+}
+
+.project-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-inner .pro {
+    border: 1px solid grey;
+    padding: 5px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 25%;
+}
+
+.project-inner .pro button {
+    background-color: #e2e2e2;
+    padding: 8px;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.project-inner .pro:hover {
+    background-color: #fff;
+    color: #000;
+}

@@ -68,28 +68,32 @@ export default class ContactComponent extends Component {
             <div className='contact-item'>
               <div className='contact-form'>
                 <div className='input-item-wrapper'>
-                  <label htmlFor='fullname'>Full Name {this.state.name}</label>
+                  <label htmlFor='fullname'>Full Name</label>
                   <input
                     type='text'
                     onChange={this.handleNameChange}
                     placeholder='Enter your name here'
+                    value={this.state.name}
                   />
                 </div>
                 <div className='input-item-wrapper'>
-                  <label htmlFor='email'>Email {this.state.email}</label>
+                  <label htmlFor='email'>Email </label>
                   <input
                     type='text'
                     onChange={this.handleEmailChange}
                     placeholder='Enter your email '
+                    value={this.state.email}
                   />
                 </div>
                 <div className='input-item-wrapper'>
-                  <label htmlFor='message'>Message {this.state.message}</label>
+                  <label htmlFor='message'>Message </label>
                   <textarea
                     onChange={this.handleMessageChange}
                     placeholder='Enter Message'
                     cols='60'
-                    rows='8'></textarea>
+                    rows='8'>
+                    {this.state.message}
+                  </textarea>
                 </div>
                 <div className='input-item-wrapper'>
                   <button onClick={this.handleSubmit}>Send Message</button>

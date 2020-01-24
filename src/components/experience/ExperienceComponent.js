@@ -2,7 +2,7 @@ import React from 'react';
 import './ExperienceComponent.css';
 const ExperienceComponent = () => {
   return (
-    <div>
+    <div className='experience-wrapper'>
       <div className='container'>
         <h1>Experience Details</h1>
         <div className='experience-inner'>

@@ -1,3 +1,7 @@
+.skills-wrapper h1 {
+    text-align: center;
+}
+
 .skills {
     padding: 20px 0;
     display: flex;
@@ -10,4 +14,11 @@
     text-align: center;
     margin: 5px;
     width: 22%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.skill:hover {
+    background-color: #fff;
+    color: #000;
 }

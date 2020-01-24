@@ -1,5 +1,15 @@
+.experience-wrapper h1 {
+    text-align: center;
+}
+
 .experience-inner .exp {
     border: 1px solid grey;
     padding: 5px 30px;
     margin: 10px 0;
+    border-radius: 20px;
+}
+
+.experience-inner .exp:hover {
+    background-color: #fff;
+    color: #000;
 }

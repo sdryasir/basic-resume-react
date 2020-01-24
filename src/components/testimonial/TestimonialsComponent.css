@@ -1,0 +1,27 @@
+.owl-carousel-wrapper {
+    padding: 50px 0px;
+}
+
+.testimonial-wrap h1 {
+    text-align: center;
+}
+
+.owl-carousel-wrapper .owl-theme .item {
+    text-align: center !important;
+}
+
+.owl-carousel-wrapper .owl-theme .item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: #fff;
+    display: inline-block;
+    width: 20px;
+    color: #000;
+}

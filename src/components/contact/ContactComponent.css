@@ -1,3 +1,7 @@
+.contact-wrapper h1 {
+    text-align: center;
+}
+
 .contact-inner {
     padding: 40px 0;
     display: flex;
